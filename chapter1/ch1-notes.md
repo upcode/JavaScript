@@ -1,83 +1,46 @@
-What is Javascript?
-What does Javascript do compared to HTML and CSS?
-— add behavior to web pages and applications, static pages become interactive with end users
-— supported by all modern web browsers 
 
-HMTL- content and structure 
-CSS - style 
-Js - provides behavior and interactions 
-
-JS execute code soon encounters it 
-— body or head take where js is placed 
-
-Js is scripting lang it is interpreted in the browser, browser runs each line of js code as it gets to it. 
-—scripting lang less time on runtime and performance more geared towards tasks 
-
-Js- wirte statement, each satement is computation and together all statemetns create behavior of a page. 
-
-VAlues and Variables 
--- numberss, strings, booleans
-
-Notes: 
--- var must start with letter, _ underscore or $ 
--- cannot use keywords for variables 
-break| delete |for| let| super |void
-case |do |function |new |switch |while |catch |else |if |package |this |with 
-class |enum |implements |private |throw |yield |const |export |import |protected |true   
-continue |extends |in |ublic |try |debugger |false |instanceof |return |typeof   |default |finally |interface |static |var
+<h1>JavaScript Chapter 1</h1>
 
 
-Question: 
-How do you create a variable in Javascript? Create a varaible and assing it a value? 
-Statements always end with ___ in Js? 
-Can you create var with out signing value in JS? 
-What are rules in creating variables in JS? 
-What is a Keyword mean in JS? 
+<h3>Chapter 1 Summary</h3>
+<ul>
+<li>JavaScript is used to add behavior to web pages.
+<li>Browser engines are much faster at executing JavaScript than they were just a few years ago.</li>
+<li>Browsers begin executing JavaScript code as soon as they encounter the code in the page.</li>
+<li>Add JavaScript to your page with the < script > element.</li>
+<li>You can put your JavaScript inline in the web page, or link to a separate file containing your JavaScript from your HTML. 
+<li>Use the src attribute in the < script > tag to link to a separate JavaScript file.</li>
+<li>HTML declares the structure and content of your page; JavaScript computes values and adds behavior to your page. 
+<li>JavaScript programs are made up of a series of statements. </li>
+<li>One of the most common JavaScript statements is a variable declaration, which uses the var keyword to declare a new variable and the assignment operator, =, to assign a value to it.</li>
+<li>There are just a few rules and guidelines for naming JavaScript variables, and it’s important that you follow them. </li>
+<li>Remember to avoid JavaScript keywords when naming variables. JavaScript expressions compute values. 
+<li>Three common types of expressions are numeric, string and boolean expressions.</li>
+<li>if/ else statements allow you to make decisions in your code. while/ for statements allow you to execute code many times by looping. /li>
+<li>Use console.log instead of alert to display messages to the Console.</li>
+<li>Console messages should be used primarily for troubleshooting as users will most likely never see console messages.</li>
+<li>JavaScript is most commonly found adding behavior to web pages, but is also used to script applications like Adobe Photoshop, OpenOffice and Google Apps, and is even used as a server-side programming language.</li>
 
-SYNTAX: 
-statements ends with semicolor ;
-coometns // 
-strings use "" or ''
-no quoates around boleans 
-varables dont have to have value 
-JS case sensative use camle case 
-white space desnt matter in JS. 
-
-
-EXPRESSIONS: 
-numerica, string, boolean expressions
-* all expression evaluate to something value is # "string" or boolean T/F
-
-LOOPS: 
-while, for for in for each 
-
-What are parts of while loop? 
- while (boolean expression ie conditional test) { 
- // this is a code block everything between {}
-
-  // if condition is true everytng in the code blcok execute
-  // if conditon if true excute code abd loop back and do it again until condition is false
+</ul>
 
 
-}
-
-var scoops = 5; 
-while (scoops > 5) {
-	document.write("another scoop");
-	scoops = scoops -1 
-}
-document.write("ice cream");
-
-QUESTIONs: 
-what is the differnece between while and if statement 
-can you string together multiple if else statements in if statement? 
-what keyword do you use end if else or just one ? 
---if statements executes code black if codntion test is true 
-if 
-if else 
-else
-
-document.write? 
-console.log?
-alert?
-document object model 
+<h3>Questions</h3>
+<ol>
+<li> To link to an external JavaScript file from HTML, you need the _______ attribute for your < script > element.</li> 
+<li> To avoid embarrassing naming mistakes, use __________ case.</li> 
+<li> JavaScript adds _______________ to your web pages.</li> 
+<li> There are 99 _____________ of beer on the wall.</li> 
+<li> Each line of JavaScript code is called a _______________.</li> 
+<li> 3 + 4 is an example of an _____________.</li>
+<li> All JavaScript statements end with a ___________.</li> 
+<li> Use _____________ to troubleshoot your code.</li>
+<li> Do things more than once in a JavaScript program with the _________ loop.</li> 
+<li> JavaScript variable names are _________ sensitive. </li>
+<li> To declare a variable, use this keyword.</li>
+<li> Variables are used to store these.</li>
+<li> Each time through a loop, we evaluate a ______________ expression.</li> 
+<li> Today’s JavaScript runs a lot ________________ than it used to.</li>
+<li> The if/ else statement is used to make a ____________.</li> 
+<li> You can concatenate _______________ together with the + operator.</li>
+<li> You put your JavaScript inside a ______________ element.</li>
+</ol>
